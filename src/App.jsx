@@ -6,6 +6,7 @@ function App() {
   return (
     <div className='App'>
       <h1>San Benito County's Premier Junk Removal Service</h1>
+      <h2>Building A Base</h2>
     </div>
   );
 }
