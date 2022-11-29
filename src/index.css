@@ -1,0 +1,42 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-primary: #34395f;
+  --color-parmary-light: #85889f;
+  --color-primary-dark: #1a1d30;
+
+  --color-secondary: #e7e454;
+  --color-secondary-light: #eeec85;
+
+  --color-background: #faf9ee;
+  --color-background-light: #f1ef98;
+  --color-background-dark: #9a9caf;
+
+  --color-text: #333;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  background-color: var(--color-background);
+  color: var(--color-text);
+
+  overflow-x: hidden;
+}
